@@ -1,0 +1,38 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Finger前端团队博客",
+  "main": "index.js",
+  "scripts": {
+    "start": "gatsby develop",
+    "dev": "gatsby develop",
+    "pro": "gatsby build",
+    "gh": "gatsby build --prefix-paths && gh-pages -d public",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"pages/*.js\" \"utils/*.js\" \"wrappers/*.js\" \"html.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffe-team/blog.git"
+  },
+  "keywords": [
+    "Gatsby",
+    "blog",
+    "frontend",
+    "finger"
+  ],
+  "author": "blackcater",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ffe-team/blog/issues"
+  },
+  "homepage": "https://github.com/ffe-team/blog#readme",
+  "dependencies": {
+    "gatsby": "^1.0.1",
+    "gatsby-link": "^1.0.1",
+    "gatsby-plugin-react-helmet": "^1.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}
